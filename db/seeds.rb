@@ -8,6 +8,7 @@
 
 penny = Artist.create(name: "Pennyforthought", address:"234 Music valley way Queens, NY 11223", image:"https://i.ibb.co/vPG3PGg/1.png")
 sashaaa = Artist.create(name: "Sashaaa", address: "82 Sunshine valentine way Los Angeles, CA 90001", image:"https://i.ibb.co/mSrph48/Untitled-design-2.png")
+john = Artist.create(name:"John Skeete", address: "10 Putitonrepeat street Boston MA 02126", image:"https://i.ibb.co/TqWmTmP/Untitled-design-4.png")
 theehoney = Artist.create(name: "Thee Honey", address: "14 Spicy avenue Boston, MA 02126", image:"https://i.ibb.co/nQP9fr1/7.png")
 guyclaude = Artist.create(name:"Guyclaude", address: "150 Smooth guy lane Boston, MA 02126", image:"https://i.ibb.co/z8Kxk4y/4.png")
 elae = Artist.create(name: "Elae", address: "99 Treble clef road Hyde Park MA, 02123", image:"https://i.ibb.co/K5sGz34/3.png")
@@ -34,6 +35,12 @@ onmyway = Song.create(title: "On My Way", link:"https://open.spotify.com/embed/t
 fiya = Song.create(title: "Fiya", link:"https://open.spotify.com/embed/track/78ERdaP94PHHryy4u1VPzz", genre:" genre: Pop", artist: sashaaa )
 gouyad = Song.create(title: "Gouyad", link:"https://open.spotify.com/embed/track/6nixlUevfAXvKoZ3cuY1nu", genre:" genre: Pop", artist: sashaaa )
 mezanmi = Song.create(title: "Mezanmi", link: "https://open.spotify.com/embed/track/0Q8ijKl5SBkiaH9qACrXS7", genre:" genre: Pop", artist: sashaaa )
+
+longway = Song.create(title: "Long way", link:"https://open.spotify.com/embed/track/2hKoMIalyx3z7NtrU9OFCx", genre:" genre: Rap", artist: john )
+elements = Song.create(title: "Elements", link:"https://open.spotify.com/embed/track/0aiYmdQFjAo3urnumNovmi", genre:" genre: Rap", artist: john )
+looseends = Song.create(title: "Loose Ends", link:"https://open.spotify.com/embed/track/5NiXlsD2VE2RNNXj90hnFK", genre:" genre: Rap", artist: john )
+doitbig = Song.create(title: "Do It Big", link:"https://open.spotify.com/embed/track/5E44W289ew5JcEt9nY1MjD", genre:" genre: Rap", artist: john )
+
 
 ridin = Song.create(title: "Ridin", link:"https://open.spotify.com/embed/track/5Zp2NTfoexGdB7B89f2ZyC", genre:" genre: Rap", artist: theehoney )
 flexin = Song.create(title: "Flexin", link:"https://open.spotify.com/embed/track/6RIM003oZWPOCEzWh3OGuw", genre:" genre: Rap", artist: theehoney )
@@ -101,7 +108,6 @@ cuddleszn = Song.create(title:"Cuddle Szn", link: "https://open.spotify.com/embe
 starcrossedlover = Song.create(title:"Star Crossed Lover", link: "https://open.spotify.com/embed/track/3I4bA3KitNFMReGJz8ddwY", genre:"Genre: Rnb", artist: nariah)
 
 
-
 you = Song.create(title: "You", link:"https://open.spotify.com/embed/track/5nst1DweTDJbI3mG2dtX9w", genre: "Genre: Rap", artist: squeeze)
 sitback = Song.create(title: "Sit Back", link:"https://open.spotify.com/embed/track/48bypdk9ZxiPrdPuuYghsS", genre: "Genre: Rap", artist: squeeze)
 
@@ -109,5 +115,13 @@ sitback = Song.create(title: "Sit Back", link:"https://open.spotify.com/embed/tr
 
 
 event1= Event.create(name:"Studio Session", date:"2020-12-01", artist: penny)
-event2= Event.create(name:"Video Shoot", date:"2020-12-06", artist: guyclaude)
-event3= Event.create(name:"Interview", date:"2020-12-20", artist: squeeze)
+event2= Event.create(name:"Video Shoot", date:"2020-11-06", artist: guyclaude)
+event3= Event.create(name:"Interview", date:"2020-11-20", artist: squeeze)
+event4= Event.create(name:"Studio Session", date:"2021-1-20", artist: iniko)
+event5= Event.create(name:"Interview", date:"2020-12-10", artist: iniko)
+event6= Event.create(name:"Video Shoot", date:"2020-11-15", artist: squeeze)
+event7= Event.create(name:"Interview", date:"2020-11-23", artist: lisalopes)
+event8= Event.create(name:"Video Shoot", date:"2020-2-20", artist: lisalopes)
+event9= Event.create(name:"Studio Session", date:"2020-3-18", artist: squeeze)
+event10= Event.create(name:"Studio Session", date:"2020-12-20", artist: kaysha)
+event11= Event.create(name:"Interview", date:"2020-11-02", artist: kaysha)
