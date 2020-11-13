@@ -7,7 +7,6 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 
 penny = Artist.create(name: "Pennyforthought", address:"234 Music valley way Queens, NY 11223", image:"https://i.ibb.co/vPG3PGg/1.png")
-squeeze = Artist.create(name:"Squeeze", address: "500 Rap circle Atlanta, GA 34209", image:"https://i.ibb.co/xSmGqKL/2.png")
 john = Artist.create(name:"John Skeete", address: "10 Putitonrepeat street Boston MA 02126", image:"https://i.ibb.co/TqWmTmP/Untitled-design-4.png")
 theehoney = Artist.create(name: "Thee Honey", address: "14 Spicy avenue Boston, MA 02126", image:"https://i.ibb.co/nQP9fr1/7.png")
 guyclaude = Artist.create(name:"Guyclaude", address: "150 Smooth guy lane Boston, MA 02126", image:"https://i.ibb.co/z8Kxk4y/4.png")
@@ -16,12 +15,13 @@ nariah = Artist.create(name: "Nariah", address: " 14 Twin lane Los Angeles, CA 9
 tinica = Artist.create(name: "Tinica Rose", address: "22 Sweet tea road  Harlem, NY 11226", image:"https://i.ibb.co/bzR80kp/8.png")
 ekela = Artist.create(name: "Ekela", address: " 9126 Stronger street Philadelphia, PA 15001", image:"https://i.ibb.co/FxbY1xf/14.png")
 kaysha = Artist.create(name: "Kaysha", address: "777 Sushiraw avenue Lisbon, Portugal 1000", image:"https://i.ibb.co/cYyYvcy/9.png")
-kaydilluh = Artist.create(name: "Kaydilluh", address: "209 Soulful way  Brooklyn, NY 11226", image:"https://i.ibb.co/56hWT91/10.png")
 poisonivy = Artist.create(name: "Poison Ivy", address: " 901 Dragon circle Queens, NY 11354", image:"https://i.ibb.co/wBNQg5L/11.png")
 lisalopes = Artist.create(name: "Lisa Lopes", address: " 1020 Cabo verde street Providence, RI 02905", image:"https://i.ibb.co/pf3LmvZ/12.png")
 jscott = Artist.create(name: "J.Scott", address: " 1 Orginal Fire avenue Harlem, NY 10026", image:"https://i.ibb.co/XVg9zBV/13.png")
 ashley = Artist.create(name: "Ashley Skerritt", address: " 31 Syrene street Harlem, NY 10026", image:"https://i.ibb.co/y8zYFmg/15.png")
 iniko= Artist.create(name: "Iniko", address: " 10 Alien road Philadelphia, PA 15001", image:"https://i.ibb.co/6tBb22w/16.png")
+kaydilluh = Artist.create(name: "Kaydilluh", address: "209 Soulful way  Brooklyn, NY 11226", image:"https://i.ibb.co/56hWT91/10.png")
+squeeze = Artist.create(name:"Squeeze", address: "500 Rap circle Atlanta, GA 34209", image:"https://i.ibb.co/xSmGqKL/2.png")
 sashaaa = Artist.create(name: "Sashaaa", address: "82 Sunshine valentine way Los Angeles, CA 90001", image:"https://i.ibb.co/mSrph48/Untitled-design-2.png")
 
 
@@ -58,7 +58,6 @@ blackbeauty = Song.create(title:"Ode to Black Beauty", link:"https://open.spotif
 sofrito = Song.create(title:"Sofrito", link:"https://open.spotify.com/embed/track/55WMeJF4mZlYBgluASRJhb", genre:"Genre: RnB", artist: tinica)
 biggirlwinter = Song.create(title:"Big Girl Winter", link:"https://open.spotify.com/embed/track/6ZnqHl8FTFuXFC0wYUP00P", genre:"Genre: RnB", artist: tinica)
 noregrets = Song.create(title:"No Regrats", link:"https://open.spotify.com/embed/track/4kDGg9ea4b0tYInB6HGrWg", genre:"Genre: RnB", artist: tinica)
-weok = Song.create(title:"We Ok", link:"https://open.spotify.com/embed/track/5Gcsp0P5N46rRWIhLEyZFB", genre:"Genre: RnB", artist: tinica)
 half = Song.create(title:"Halfway Point", link:"https://open.spotify.com/embed/track/6bvYe0yDCUutEFN2cHaedH", genre:"Genre: RnB", artist: tinica)
 
 catalyst = Song.create(title:"Catalyst", link:"https://open.spotify.com/embed/track/785t3JiNtSwdNGCA1tNgxa", genre:"Genre: RnB", artist: ekela)
