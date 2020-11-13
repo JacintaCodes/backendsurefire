@@ -7,11 +7,12 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 
 penny = Artist.create(name: "Pennyforthought", address:"234 Music valley way Queens, NY 11223", image:"https://i.ibb.co/vPG3PGg/1.png")
-sashaaa = Artist.create(name: "Sashaaa", address: "82 Sunshine valentine way Los Angeles, CA 90001", image:"https://i.ibb.co/mSrph48/Untitled-design-2.png")
+squeeze = Artist.create(name:"Squeeze", address: "500 Rap circle Atlanta, GA 34209", image:"https://i.ibb.co/xSmGqKL/2.png")
 john = Artist.create(name:"John Skeete", address: "10 Putitonrepeat street Boston MA 02126", image:"https://i.ibb.co/TqWmTmP/Untitled-design-4.png")
 theehoney = Artist.create(name: "Thee Honey", address: "14 Spicy avenue Boston, MA 02126", image:"https://i.ibb.co/nQP9fr1/7.png")
 guyclaude = Artist.create(name:"Guyclaude", address: "150 Smooth guy lane Boston, MA 02126", image:"https://i.ibb.co/z8Kxk4y/4.png")
 elae = Artist.create(name: "Elae", address: "99 Treble clef road Hyde Park MA, 02123", image:"https://i.ibb.co/K5sGz34/3.png")
+nariah = Artist.create(name: "Nariah", address: " 14 Twin lane Los Angeles, CA 90001", image:"https://i.ibb.co/CJbHtBb/Untitled-design-3.png")
 tinica = Artist.create(name: "Tinica Rose", address: "22 Sweet tea road  Harlem, NY 11226", image:"https://i.ibb.co/bzR80kp/8.png")
 ekela = Artist.create(name: "Ekela", address: " 9126 Stronger street Philadelphia, PA 15001", image:"https://i.ibb.co/FxbY1xf/14.png")
 kaysha = Artist.create(name: "Kaysha", address: "777 Sushiraw avenue Lisbon, Portugal 1000", image:"https://i.ibb.co/cYyYvcy/9.png")
@@ -21,8 +22,7 @@ lisalopes = Artist.create(name: "Lisa Lopes", address: " 1020 Cabo verde street 
 jscott = Artist.create(name: "J.Scott", address: " 1 Orginal Fire avenue Harlem, NY 10026", image:"https://i.ibb.co/XVg9zBV/13.png")
 ashley = Artist.create(name: "Ashley Skerritt", address: " 31 Syrene street Harlem, NY 10026", image:"https://i.ibb.co/y8zYFmg/15.png")
 iniko= Artist.create(name: "Iniko", address: " 10 Alien road Philadelphia, PA 15001", image:"https://i.ibb.co/6tBb22w/16.png")
-nariah = Artist.create(name: "Nariah", address: " 14 Twin lane Los Angeles, CA 90001", image:"https://i.ibb.co/CJbHtBb/Untitled-design-3.png")
-squeeze = Artist.create(name:"Squeeze", address: "500 Rap circle Atlanta, GA 34209", image:"https://i.ibb.co/xSmGqKL/2.png")
+sashaaa = Artist.create(name: "Sashaaa", address: "82 Sunshine valentine way Los Angeles, CA 90001", image:"https://i.ibb.co/mSrph48/Untitled-design-2.png")
 
 
 
@@ -32,9 +32,6 @@ california = Song.create(title: "California", link:"https://open.spotify.com/emb
 ounce = Song.create(title: "40 Ounce", link:"https://open.spotify.com/embed/track/43yOsMG3NAImBGaLhy5lWI", genre:" genre: Rap", artist: penny )
 onmyway = Song.create(title: "On My Way", link:"https://open.spotify.com/embed/track/59LfbiOV0dA1pLHUj7b8yg", genre:" genre: Rap", artist: penny )
 
-fiya = Song.create(title: "Fiya", link:"https://open.spotify.com/embed/track/78ERdaP94PHHryy4u1VPzz", genre:" genre: Pop", artist: sashaaa )
-gouyad = Song.create(title: "Gouyad", link:"https://open.spotify.com/embed/track/6nixlUevfAXvKoZ3cuY1nu", genre:" genre: Pop", artist: sashaaa )
-mezanmi = Song.create(title: "Mezanmi", link: "https://open.spotify.com/embed/track/0Q8ijKl5SBkiaH9qACrXS7", genre:" genre: Pop", artist: sashaaa )
 
 longway = Song.create(title: "Long way", link:"https://open.spotify.com/embed/track/2hKoMIalyx3z7NtrU9OFCx", genre:" genre: Rap", artist: john )
 elements = Song.create(title: "Elements", link:"https://open.spotify.com/embed/track/0aiYmdQFjAo3urnumNovmi", genre:" genre: Rap", artist: john )
@@ -107,6 +104,9 @@ feelmylove = Song.create(title:"Feel My Love", link: "https://open.spotify.com/e
 cuddleszn = Song.create(title:"Cuddle Szn", link: "https://open.spotify.com/embed/track/6j5ZqAaJjFx3hFPsnYtuvJ", genre:"Genre: Rnb", artist: nariah)
 starcrossedlover = Song.create(title:"Star Crossed Lover", link: "https://open.spotify.com/embed/track/3I4bA3KitNFMReGJz8ddwY", genre:"Genre: Rnb", artist: nariah)
 
+fiya = Song.create(title: "Fiya", link:"https://open.spotify.com/embed/track/78ERdaP94PHHryy4u1VPzz", genre:" genre: Pop", artist: sashaaa )
+gouyad = Song.create(title: "Gouyad", link:"https://open.spotify.com/embed/track/6nixlUevfAXvKoZ3cuY1nu", genre:" genre: Pop", artist: sashaaa )
+mezanmi = Song.create(title: "Mezanmi", link: "https://open.spotify.com/embed/track/0Q8ijKl5SBkiaH9qACrXS7", genre:" genre: Pop", artist: sashaaa )
 
 you = Song.create(title: "You", link:"https://open.spotify.com/embed/track/5nst1DweTDJbI3mG2dtX9w", genre: "Genre: Rap", artist: squeeze)
 sitback = Song.create(title: "Sit Back", link:"https://open.spotify.com/embed/track/48bypdk9ZxiPrdPuuYghsS", genre: "Genre: Rap", artist: squeeze)
