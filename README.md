@@ -1,24 +1,42 @@
-# README
+<h1>Welcome to Surefire Studio Bookings (the backend) </h1>
+<br>
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
 
-Things you may want to cover:
+<!-- TABLE OF CONTENTS -->
 
-* Ruby version
+ ### Table of Contents
 
-* System dependencies
+ **[About The Project](#about-the-project)**<br> 
+ **[Technologies](#technologies)**<br>
+ **[Installation](#installation)**<br>
+ **[Demo Vido](#demo)**<br>
+ **[Contact](#contact)**<br>
+     
+ ### About The Project 
+ <h4 align="center"> Surefire Studio is an app created for a music studio. That keeps track of incoming artists and current artists activities in the studio. The backend stores all the data needed for this app. </h4>
+ 
+### Technologies
+<ul>
+ <li>Ruby on Rails</li>
+</ul>
 
-* Configuration
 
-* Database creation
+### Installation
+<ol>
+<li>Open the repository in github: https://github.com/JacintaCodes/frontendsurefire </li>
+ <li>Click on the green code button. </li>
+ <li>Copy and paste the link. </li>
+ <li>Go to your computers terminal and make sure you are in the correct directory. </li>
+ <li>Git clone the file.</li>
+</ul>
+ 
+ ### Demo Video
+  Coming soon
+ 
+ ## Contact 
+ 
+[![github-readme-twitter](https://github-readme-twitter.gazf.vercel.app/api?id=jacintacodes)](https://github.com/gazf/github-readme-twitter)
 
-* Database initialization
+ 
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+ 
